@@ -1,5 +1,6 @@
 body {
   background-color: #f9f7fe;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 h1 {
@@ -16,6 +17,7 @@ h2 {
 select {
   display: block;
   width: 100%;
+  font-size: 18px;
   border-radius: 4px;
   padding: 10px;
 }
@@ -27,7 +29,6 @@ select {
   padding: 30px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 10px;
-  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .city {
@@ -38,9 +39,14 @@ select {
   border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
 }
 
+.city :last-child {
+  border: none;
+}
+
 .date {
   opacity: 0.7;
 }
+
 .time {
   font-size: 48px;
   font-weight: bold;
